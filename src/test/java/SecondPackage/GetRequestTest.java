@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class RequestTest extends BaseTest {
+public class GetRequestTest extends BaseTest {
     @Test
     public void GetRequestTest(){
         given()

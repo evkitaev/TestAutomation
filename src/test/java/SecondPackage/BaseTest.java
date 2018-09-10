@@ -21,10 +21,6 @@ public class BaseTest {
                 .log().all()
                 .assertThat()
                 .extract().jsonPath().getString("access_token");
-        System.out.println(token);
     }
 
-    public static void main(String[] args) {
-        System.out.println(token);
-    }
 }
